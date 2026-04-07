@@ -8,6 +8,6 @@ class HomeController extends Controller
 {
     public function __invoke()
     {
-        return "Welcome to the HomePage";
+        return view('home');
     }
 }
